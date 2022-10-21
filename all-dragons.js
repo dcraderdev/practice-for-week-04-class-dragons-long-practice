@@ -17,15 +17,21 @@ const allDragons = Dragon.getDragons(smaug, falkor)
 
 
 
+
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
 
-try {
-  module.exports = {
-    falkor,
-    smaug,
-    allDragons
-  };
-} catch {
-  module.exports = null;
-}
+// try {
+// <<<<<<< HEAD
+//   module.exports = {
+//     falkor,
+//     smaug,
+//     allDragons
+//   };
+// =======
+//   module.exports.falkor = falkor
+//   module.exports.smaug = smaug
+// >>>>>>> e7bd3170c540f6350fee46b39dbc2c63f1f5dc1d
+// } catch {
+//   module.exports = null;
+// }
